@@ -1,27 +1,6 @@
 package git.menu;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 
-import org.lwjgl.LWJGLException;
-import org.lwjgl.opengl.Display;
-import org.lwjgl.opengl.GL11;
-
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.Session;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.ScaledResolution;
-import net.minecraft.client.renderer.Tessellator;
-import net.minecraft.client.renderer.texture.TextureManager;
-import net.minecraft.client.shader.Framebuffer;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.config.Configuration;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraft.client.gui.GuiMainMenu;
-import net.minecraftforge.common.config.*;
 
 @Mod(modid = "New Gui")
 public class Menu {
